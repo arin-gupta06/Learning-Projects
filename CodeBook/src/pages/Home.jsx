@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="bg-[#121212] text-white font-['Space_Grotesk'] selection:bg-[#00FFC2]/30 selection:text-white min-h-screen pb-16">
       {/* Top Navigation */}
-      <header className="bg-[#121212] border-b border-neutral-800 flex justify-between items-center w-full px-6 h-[48px] fixed top-0 z-50">
+      <header className="bg-[#0a0a0a] border-b border-neutral-800 flex justify-between items-center w-full px-6 h-12 fixed top-0 z-50">
         <div className="flex items-center gap-2">
           <span className="material-symbols-outlined text-[#00FFC2]" data-icon="menu_book">menu_book</span>
           <span className="font-['Space_Grotesk'] text-lg font-bold text-[#00FFC2] tracking-tighter">CodeBook</span>
@@ -22,9 +22,9 @@ const Home = () => {
         </div>
       </header>
 
-      <main className="pt-[48px]">
+      <main className="pt-12">
         {/* Hero Section */}
-        <section className="min-h-[870px] flex flex-col md:flex-row items-center px-6 md:px-24 gap-12 border-b border-neutral-800">
+        <section className="min-h-217.5 flex flex-col md:flex-row items-center px-6 md:px-24 gap-12 border-b border-neutral-800">
           <div className="flex-1 space-y-6">
             <div className="inline-block border border-[#00FFC2]/20 px-3 py-1 bg-[#00FFC2]/5">
               <p className="font-bold text-xs tracking-widest uppercase text-[#00FFC2]">VERSION 1.0 NOW LIVE</p>
@@ -45,14 +45,14 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="flex-1 w-full bg-[#181818] rounded-xl border border-neutral-800 p-6 notebook-pattern relative min-h-[500px]">
+          <div className="flex-1 w-full bg-[#181818] rounded-xl border border-neutral-800 p-6 notebook-pattern relative min-h-125">
             <div className="flex items-center gap-2 mb-6 border-b border-neutral-800 pb-2">
               <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
               <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
               <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
               <p className="font-mono text-xs text-neutral-500 ml-4">workspace/logic_flow.cb</p>
             </div>
-            <div className="font-mono space-y-0 text-neutral-300 leading-[24px]">
+            <div className="font-mono space-y-0 text-neutral-300 leading-6">
               <p><span className="text-[#00FFC2]">function</span> calculate_complexity(input) {`{`}</p>
               <div className="indent-guide border-l border-neutral-700 ml-4 pl-4">
                 <p><span className="text-[#c678dd]">if</span> (input.type == <span className="text-[#e5c07b]">"asymmetric"</span>) {`{`}</p>
@@ -110,7 +110,7 @@ const Home = () => {
             <p className="font-bold tracking-widest text-xs uppercase text-[#00FFC2] mb-2">THE SOLUTION</p>
             <h2 className="text-4xl text-white">Designed for scholarly precision.</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-200">
             <div className="md:col-span-12 bg-[#181818] border border-neutral-800 p-8 flex flex-col justify-between overflow-hidden relative">
               <div>
                 <h3 className="text-2xl mb-2 text-white">Logic Mode</h3>
